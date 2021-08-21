@@ -1,0 +1,76 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+                                                    /* header */
+.header{
+    background-color: #FFFBF0;
+}
+.intro h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+.intro p{
+    color: #3E3E3E;
+    font-size: 15px;
+}
+.salmon-color{
+    color:#FABE4C;
+}
+.navy-blue{
+    color:#363958;
+}
+.penguin-button{
+    background-color: #A4BC46;
+    font-size: 13px;
+    color:white;
+    border: none;
+    padding:10px 30px;
+    border-radius: 8px;
+}
+.penguin-button img{
+    width: 25px;
+} 
+
+
+                                                        /* women jacket */
+.card-element img{    
+    height: auto;
+    width:70%;
+}      
+.woman-jacket h2, .man-jacket h2{
+    color:#363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}                                                  
+.card-element{
+    background-color: #F1F1F1;
+}
+.card-body{
+    background-color: white;
+}
+.card-body h5{
+    font-weight: 700;
+    color:#363958;
+}
+.card-body p{
+    color: #3E3E3E;
+    font-size: 15px;
+}
+.card-footer h2{
+    font-weight: 900;
+    color:#FABE4C;
+    
+}
+.card-footer img{
+    width: 25px;
+}
+
+                                    /* fit-section */
+.fit-section img{
+    width: 75px;
+    
+}                 
+.fit-content{
+    border-radius: 10px;
+}                   
