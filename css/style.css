@@ -3,13 +3,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
                                                     /* header */
-.header{
+.main{
     background-color: #FFFBF0;
 }
 .intro h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
 }
+
 .intro p{
     color: #3E3E3E;
     font-size: 15px;
@@ -17,7 +18,22 @@ body{
 .salmon-color{
     color:#FABE4C;
 }
+.penguin-navbar{
+    background-color:#FFFBF0 ;
+}
 .navy-blue{
+    color:#363958;
+}
+.penguin-logo-title{
+    font-family: 'Montserrat', sans-serif;
+}
+.penguin-icon{
+    width: 65px;
+}
+.logo-txt-1{
+    color:#A4BC46;
+}
+.logo-txt-2{
     color:#363958;
 }
 .penguin-button{
@@ -25,25 +41,38 @@ body{
     font-size: 13px;
     color:white;
     border: none;
-    padding:10px 30px;
+    padding:10px 25px;
     border-radius: 8px;
 }
 .penguin-button img{
     width: 25px;
 } 
+.penguin-nav-link a{
+    color: #3C3C3C !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
 
 
                                                         /* women jacket */
-.card-element img{    
-    height: auto;
-    width:70%;
+.card-img-top{    
+    width: 100%;
+    height:300px;
+    object-fit: contain;
 }      
 .woman-jacket h2, .man-jacket h2{
     color:#363958;
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
 }                                                  
-.card-element{
+.card-element,.card-image-container {
+    border-radius: 15px;
+}
+
+.card-image-container{
+    margin-top: 17px;
+    width: 90%;
     background-color: #F1F1F1;
 }
 .card-body{
@@ -66,11 +95,43 @@ body{
     width: 25px;
 }
 
+
                                     /* fit-section */
-.fit-section img{
-    width: 75px;
-    
-}                 
+.fit-section{
+    margin-top: 7em;
+}                                    
+.fit-img-container{
+    width:20%;
+   padding: 18px;
+}        
+.fit-img-container-2{
+    margin-top: 5%;
+}
 .fit-content{
     border-radius: 10px;
 }                   
+.fit-description{
+    width: 65%;
+}
+.fit-description h4{
+    font-family: 'Roboto', sans-serif;
+    color: #363958;    
+    font-weight: 700;
+}
+.fit-description p{
+    color: #3E3E3E;
+    
+}
+
+                                    /* footer section */
+footer{
+    margin-top: 50px;
+   
+    background-color: #FABE4C;
+}                                    
+
+footer a{
+    color: black;
+    padding: 3px;
+}
+
